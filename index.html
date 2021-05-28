@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Finding The Greatest Commom Divisor <br> Using Euclid's Algorithm</h1>
+    </header>
+
+    <div id="topDiv">
+        <div id="heightDiv">
+            <input class="input" id="height" type="number" placeholder="Height">
+        </div>
+        <div id="widthDiv">
+            <input class="input" id="width" type="number" placeholder="Width">
+        </div>
+
+    </div>
+
+    <div id="submitDiv">
+        <!-- <button>Submit</button> -->
+        <button type="submit" id="btn" onclick="greatestCommonDivisor(getHeight, getWidth);">Submit</button>
+    </div>
+
+    <div id="outputDiv">
+        <!-- <input type="number" id="output" placeholder="The GCD is ......"> -->
+
+        <h3 id="output"></h3>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

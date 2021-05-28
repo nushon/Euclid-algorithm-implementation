@@ -1,0 +1,77 @@
+body {
+    background-color: #445E93;
+}
+
+header {
+    justify-content: center;
+    color: rgb(194, 192, 192);
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 100;
+    text-align: center;
+}
+
+#topDiv {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 1%;
+    justify-content: center;
+}
+
+.input {
+    height: 40px;
+    width: 50%;
+    border: 3px solid black;
+    margin: 100px 0px 0px 120px;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(194, 192, 192);
+}
+
+button {
+    width: 10%;
+    height: 40px;
+    border: 3px solid black;
+    margin: 20px 0px 0px 570px;
+    border-radius: 5px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
+    font-size: x-large;
+    background-color: rgba(255, 238, 87, 0.801);
+}
+
+#output {
+    height: 60px;
+    width: 20%;
+    margin: 50px 0px 0px 500px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(194, 192, 192);
+    text-align: center;
+    font-size: x-large;
+}
+
+@media only screen and (max-width: 600px) {
+    #topDiv {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        column-gap: 15%;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .input {
+        height: 80px;
+        width: 100%;
+        border: 3px solid black;
+        margin: 100px 0px 0px 120px;
+        font-size: x-large;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgb(194, 192, 192);
+    }
+}
